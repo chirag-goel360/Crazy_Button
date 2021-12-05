@@ -1,0 +1,21 @@
+button {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 50px;
+	width: 150px;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: 'Fantasy', Papyrus;
+	font-weight: bold;
+	letter-spacing: 3px;
+	background: #ffc421;
+	border: 2px solid black;
+	transition: 500ms;
+}
+
+button:hover {
+	background-position: left;
+	color: white;
+	box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 1), 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
